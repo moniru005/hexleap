@@ -1,0 +1,16 @@
+.card-c-1, .card-c-2, .card-c-3 {
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.card-c-1{
+    background-image: url('../assets//images/collection-1.jpeg');
+}
+.card-c-2{
+    background-image: url('../assets/images/collection-2.jpeg');
+}
+.card-c-3{
+    background-image: url('../assets/images/collection-1.jpeg');
+}
