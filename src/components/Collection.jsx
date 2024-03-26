@@ -5,7 +5,7 @@ import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 const Collection = () => {
   return (
     <div className="max-w-6xl mx-auto py-16">
-      <div className="px-4 lg:px-0 mb-8 flex flex-col items-center text-center">
+      <div className="dark:text-white px-4 lg:px-0 mb-8 flex flex-col items-center text-center">
         <h1 className="text-[50px] font-[700]">Collection Spotlight</h1>
         <p className="py-2 w-full lg:w-[917px] text-[14px] font-[400] font-inter">
           Discover extraordinary moments with our Spotlight Collection
@@ -25,10 +25,10 @@ const Collection = () => {
         </div>
 
         {/* card-1 */}
-        <div className="relative w-full lg:w-[238px] bg-white p-2 border">
+        <div className="relative w-full lg:w-[238px] bg-white dark:bg-[#818A97] p-2 border">
           {/* dotted */}
           <div className="absolute top-[400px] left-0 py-4  w-full flex flex-row justify-between">
-            <div className="absolute top-1 -left-3 bg-[#F7F7F8] size-6 rounded-full"></div>
+            <div className="absolute top-1 -left-3 bg-[#F7F7F8] dark:bg-[#292B32] size-6 rounded-full"></div>
 
             <svg
               className="absolute left-6 xxs:w-[230px] xs:w-[335px] lg:w-[185px]"
@@ -47,7 +47,7 @@ const Collection = () => {
               />
             </svg>
 
-            <div className="absolute top-1 -right-3 bg-[#F7F7F8] size-6 rounded-full"></div>
+            <div className="absolute top-1 -right-3 bg-[#F7F7F8] dark:bg-[#292B32] size-6 rounded-full"></div>
           </div>
 
           {/* image */}
@@ -55,14 +55,14 @@ const Collection = () => {
 
           {/* content */}
           <div className="font-inter mt-12">
-            <h1 className="my-3 text-[17px] font-[500] text-center">
+            <h1 className="my-3 text-[17px] font-[500] text-center dark:text-white">
               Las Vegas Aviators
             </h1>
             <div className="w-full">
-              <p className="text-[14px] font-[400] uppercase text-center">
+              <p className="text-[14px] font-[400] uppercase text-center dark:text-white">
                 Oct 15 | Sun | 4:30 PM
               </p>
-              <p className="py-2 text-[14px] text-[#525965] font-[400] uppercase text-center">
+              <p className="py-2 text-[14px] text-[#525965] font-[400] uppercase text-center dark:text-[#DFDFDF]">
                 Las Vegas Ballpark, Las Vegas, Nevada
               </p>
               {/* button */}
@@ -75,10 +75,10 @@ const Collection = () => {
           </div>
         </div>
         {/* card-2 */}
-        <div className="relative w-full lg:w-[238px] bg-white p-2 border">
+        <div className="relative w-full lg:w-[238px] bg-white dark:bg-[#818A97] p-2 border">
           {/* dotted */}
           <div className="absolute top-[400px] left-0 py-4  w-full flex flex-row justify-between">
-            <div className="absolute top-1 -left-3 bg-[#F7F7F8] size-6 rounded-full"></div>
+            <div className="absolute top-1 -left-3 bg-[#F7F7F8] dark:bg-[#292B32] size-6 rounded-full"></div>
 
             <svg
               className="absolute left-6 xxs:w-[230px] xs:w-[335px] lg:w-[185px]"
@@ -98,7 +98,7 @@ const Collection = () => {
               />
             </svg>
 
-            <div className="absolute top-1 -right-3 bg-[#F7F7F8] size-6 rounded-full"></div>
+            <div className="absolute top-1 -right-3 bg-[#F7F7F8] dark:bg-[#292B32] size-6 rounded-full"></div>
           </div>
 
           {/* image */}
@@ -106,14 +106,14 @@ const Collection = () => {
 
           {/* content */}
           <div className="font-inter mt-12">
-            <h1 className="my-3 text-[17px] font-[500] text-center">
+            <h1 className="my-3 text-[17px] font-[500] text-center dark:text-white">
               Las Vegas Aviators
             </h1>
             <div className="w-full">
-              <p className="text-[14px] font-[400] uppercase text-center">
+              <p className="text-[14px] font-[400] uppercase text-center dark:text-white">
                 Oct 15 | Sun | 4:30 PM
               </p>
-              <p className="py-2 text-[14px] text-[#525965] font-[400] uppercase text-center">
+              <p className="py-2 text-[14px] text-[#525965] font-[400] uppercase text-center dark:text-[#DFDFDF]">
                 Sutter Health Park, Sacramento, California
               </p>
               {/* button */}
@@ -126,10 +126,10 @@ const Collection = () => {
           </div>
         </div>
         {/* card-3 */}
-        <div className="relative w-full lg:w-[238px] bg-white p-2 border">
+        <div className="relative w-full lg:w-[238px] bg-white dark:bg-[#818A97] p-2 border">
           {/* dotted */}
           <div className="absolute top-[400px] left-0 py-4  w-full flex flex-row justify-between">
-            <div className="absolute top-1 -left-3 bg-[#F7F7F8] size-6 rounded-full"></div>
+            <div className="absolute top-1 -left-3 bg-[#F7F7F8] dark:bg-[#292B32] size-6 rounded-full"></div>
 
             <svg
               className="absolute left-6 xxs:w-[230px] xs:w-[335px] lg:w-[185px]"
@@ -149,7 +149,7 @@ const Collection = () => {
               />
             </svg>
 
-            <div className="absolute top-1 -right-3 bg-[#F7F7F8] size-6 rounded-full"></div>
+            <div className="absolute top-1 -right-3 bg-[#F7F7F8] dark:bg-[#292B32] size-6 rounded-full"></div>
           </div>
 
           {/* image */}
@@ -157,14 +157,14 @@ const Collection = () => {
 
           {/* content */}
           <div className="font-inter mt-12">
-            <h1 className="my-3 text-[17px] font-[500] text-center">
+            <h1 className="my-3 text-[17px] font-[500] text-center dark:text-white">
               Las Vegas Aviators
             </h1>
             <div className="w-full">
-              <p className="text-[14px] font-[400] uppercase text-center">
+              <p className="text-[14px] font-[400] uppercase text-center dark:text-white">
                 Oct 15 | Sun | 4:30 PM
               </p>
-              <p className="py-2 text-[14px] text-[#525965] font-[400] uppercase text-center">
+              <p className="py-2 text-[14px] text-[#525965] font-[400] uppercase text-center dark:text-[#DFDFDF]">
                 Las Vegas Ballpark, Las Vegas, Nevada
               </p>
               {/* button */}
